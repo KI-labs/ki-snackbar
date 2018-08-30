@@ -28,7 +28,7 @@ For *KISnackBar*, use the following entry in your **Cartfile**:
 github "KI-labs/KISnackBar"
 ```
 
-Run `carthage update` to build the framework and drag the built KISnackBar.framework into your Xcode project.
+Run `carthage update` to build the framework and drag the built **KISnackBar.framework** into your Xcode project.
 
 Do not forget to import the framework with `import KISnackBar` in any file you'd like to use *KISnackBar*.
 
