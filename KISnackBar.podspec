@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
   s.summary      = "A snackbar component for iOS from KI labs."
   s.description  = <<-DESC
   Snackbars provide brief messages about app processes at the bottom of the screen. 
-  This an easy to use alternative of Android snackbar for iOS.
+  This is an easy to use alternative of Android snackbar for iOS.
                    DESC
 
   s.homepage     = "https://github.com/KI-labs/ki-snackbar-dev/"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/KI-labs/ki-snackbar-dev/blob/master/KISnackBar.gif"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = "KI labs GmbH"
