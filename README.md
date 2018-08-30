@@ -40,18 +40,18 @@ Add KISnackBar.swift to your project 🎉.
 ## Usage
 
 ```swift
-KISnackBar.shared.show(title: "We need your permission", duration: .short)
+KISnackBar.shared.show(title: "Transaction has been completed.", duration: .short)
 ``` 
 
 ```swift
-KISnackBar.shared.show(title: "We need your permission", buttonTitle: "Open Settings", 
+KISnackBar.shared.show(title: "We need your permission.", buttonTitle: "Open Settings", 
 			duration: .short) {			
     // Open Settings
 }
 ``` 
 
 ```swift
-KISnackBar.shared.show(backgroundColor: .black, title: "We need your permission", titleColor: .white, 
+KISnackBar.shared.show(backgroundColor: .black, title: "We need your permission.", titleColor: .white, 
 			buttonTitle: "Open Settings", buttonTitleColor: .white, duration: .long) {
     // Open Settings
 }
