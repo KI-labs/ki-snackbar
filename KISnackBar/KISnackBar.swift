@@ -28,7 +28,7 @@ public final class KISnackBar: UIView {
     }
     
     public static let buttonTitleColor: UIColor = UIColor(red: 0.0, green: 172.0/255.0, blue: 238.0/255, alpha: 1)
-    public static let backgroundColor: UIColor = UIColor(red: 21.0 / 255.0, green: 42.0 / 255.0, blue: 58.0 / 255.0, alpha: 1.0)
+    public static let bgColor: UIColor = UIColor(red: 21.0 / 255.0, green: 42.0 / 255.0, blue: 58.0 / 255.0, alpha: 1.0)
     
     private let infoFontName = "HelveticaNeue"
     private let buttonTitleFontName = "HelveticaNeue-Bold"
@@ -119,7 +119,7 @@ public final class KISnackBar: UIView {
             ])
     }
     
-    public func show(backgroundColor: UIColor = KISnackBar.backgroundColor, title: String, titleColor: UIColor = .white,
+    public func show(backgroundColor: UIColor = KISnackBar.bgColor, title: String, titleColor: UIColor = .white,
               buttonTitle: String? = "", buttonTitleColor: UIColor = KISnackBar.buttonTitleColor,
               duration: Duration = .long, _ action: (@escaping () -> Void) = {}) {
         self.isHidden = false
