@@ -150,7 +150,9 @@ public final class KISnackBar: UIView {
             self?.containerBottomAnchor.constant = 100
             UIView.animate(withDuration: 0.5, delay: 0, options: [.allowUserInteraction, .curveEaseIn], animations: {
                 self?.layoutIfNeeded()
-            }, completion: nil)
+            }, completion: { _ in
+                self?.isHidden = true
+            })
         }
     }
     

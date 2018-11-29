@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KISnackBar"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A snackbar component for iOS from KI labs."
   s.description  = <<-DESC
   Snackbars provide brief messages about app processes at the bottom of the screen. 
